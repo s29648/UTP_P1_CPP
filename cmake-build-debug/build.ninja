@@ -53,7 +53,7 @@ build CMakeFiles/UTP_P1.dir/Main.cpp.o: CXX_COMPILER__UTP_P1_unscanned_Debug /Us
   DEFINES = -DUTP_P1_EXPORTS
   DEP_FILE = CMakeFiles/UTP_P1.dir/Main.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fPIC -fcolor-diagnostics
-  INCLUDES = -I/Users/dsharnevich/Library/Java/JavaVirtualMachines/openjdk-23.0.1/Contents/Home/include -I/Users/dsharnevich/Library/Java/JavaVirtualMachines/openjdk-23.0.1/Contents/Home/include/darwin
+  INCLUDES = -I/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/include -I/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/include/darwin
   OBJECT_DIR = CMakeFiles/UTP_P1.dir
   OBJECT_FILE_DIR = CMakeFiles/UTP_P1.dir
 
