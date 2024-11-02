@@ -49,9 +49,17 @@ cmake_ninja_workdir = /Users/dsharnevich/CLionProjects/UTP_P1/cmake-build-debug/
 
 build cmake_object_order_depends_target_UTP_P1: phony || .
 
-build CMakeFiles/UTP_P1.dir/Main.cpp.o: CXX_COMPILER__UTP_P1_unscanned_Debug /Users/dsharnevich/CLionProjects/UTP_P1/Main.cpp || cmake_object_order_depends_target_UTP_P1
+build CMakeFiles/UTP_P1.dir/ConnectFourGame.cpp.o: CXX_COMPILER__UTP_P1_unscanned_Debug /Users/dsharnevich/CLionProjects/UTP_P1/ConnectFourGame.cpp || cmake_object_order_depends_target_UTP_P1
   DEFINES = -DUTP_P1_EXPORTS
-  DEP_FILE = CMakeFiles/UTP_P1.dir/Main.cpp.o.d
+  DEP_FILE = CMakeFiles/UTP_P1.dir/ConnectFourGame.cpp.o.d
+  FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fPIC -fcolor-diagnostics
+  INCLUDES = -I/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/include -I/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/include/darwin
+  OBJECT_DIR = CMakeFiles/UTP_P1.dir
+  OBJECT_FILE_DIR = CMakeFiles/UTP_P1.dir
+
+build CMakeFiles/UTP_P1.dir/JNImethods.cpp.o: CXX_COMPILER__UTP_P1_unscanned_Debug /Users/dsharnevich/CLionProjects/UTP_P1/JNImethods.cpp || cmake_object_order_depends_target_UTP_P1
+  DEFINES = -DUTP_P1_EXPORTS
+  DEP_FILE = CMakeFiles/UTP_P1.dir/JNImethods.cpp.o.d
   FLAGS = -g -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6 -fPIC -fcolor-diagnostics
   INCLUDES = -I/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/include -I/Library/Java/JavaVirtualMachines/jdk-23.jdk/Contents/Home/include/darwin
   OBJECT_DIR = CMakeFiles/UTP_P1.dir
@@ -65,7 +73,7 @@ build CMakeFiles/UTP_P1.dir/Main.cpp.o: CXX_COMPILER__UTP_P1_unscanned_Debug /Us
 #############################################
 # Link the shared library libUTP_P1.dylib
 
-build libUTP_P1.dylib: CXX_SHARED_LIBRARY_LINKER__UTP_P1_Debug CMakeFiles/UTP_P1.dir/Main.cpp.o
+build libUTP_P1.dylib: CXX_SHARED_LIBRARY_LINKER__UTP_P1_Debug CMakeFiles/UTP_P1.dir/ConnectFourGame.cpp.o CMakeFiles/UTP_P1.dir/JNImethods.cpp.o
   ARCH_FLAGS = -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX15.0.sdk -mmacosx-version-min=14.6
   INSTALLNAME_DIR = @rpath/
   LANGUAGE_COMPILE_FLAGS = -g
